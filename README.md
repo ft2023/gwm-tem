@@ -124,6 +124,11 @@ python run_exp.py --config_file [config]
 
 
 
+## 📝 Acknowledgement
+
+The concept of **IRanker** is inspired by [Deepseek-R1](https://github.com/deepseek-ai/DeepSeek-RL) and [TinyZero](https://github.com/OpenLLM-TinyModels/TinyZero). Its implementation is built upon [veRL](https://github.com/PKU-Alignment/veRL).
+
+We sincerely appreciate the efforts of these teams for their contributions to open-source research and development.
 
 ## Citation
 
