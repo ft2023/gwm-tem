@@ -4,32 +4,28 @@
     <a href="https://ulab-uiuc.github.io/GraphRouter/">
         <img alt="Build" src="https://img.shields.io/badge/Project-Page-blue">
     </a>
-    <a href="http://arxiv.org/abs/2410.03834">
+    <a href="https://arxiv.org/pdf/2507.10539">
         <img alt="Build" src="https://img.shields.io/badge/arXiv-2410.11001-red?logo=arxiv">
     </a>
-    <a href="https://x.com/taofeng_uiuc/status/1914914682860695559">
-        <img alt="Build" src="https://img.shields.io/badge/Twitter-black?logo=X">
-    </a>
-    <a href="https://github.com/ulab-uiuc/GraphRouter/blob/master/LICENSE">
+    <a href="https://github.com/ulab-uiuc/GWM/blob/master/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-green">
     </a>
     <br>
-    <a href="https://github.com/ulab-uiuc/GraphRouter">
-        <img alt="Build" src="https://img.shields.io/github/stars/ulab-uiuc/GraphRouter">
+    <a href="https://github.com/ulab-uiuc/GWM">
+        <img alt="Build" src="https://img.shields.io/github/stars/ulab-uiuc/GWM">
     </a>
-    <a href="https://github.com/ulab-uiuc/GraphRouter">
-        <img alt="Build" src="https://img.shields.io/github/forks/ulab-uiuc/GraphRouter">
+    <a href="https://github.com/ulab-uiuc/GWM">
+        <img alt="Build" src="https://img.shields.io/github/forks/ulab-uiuc/GWM">
     </a>
-    <a href="https://github.com/ulab-uiuc/GraphRouter">
-        <img alt="Build" src="https://img.shields.io/github/issues/ulab-uiuc/GraphRouter">
+    <a href="https://github.com/ulab-uiuc/GWM">
+        <img alt="Build" src="https://img.shields.io/github/issues/ulab-uiuc/GWM">
     </a>
 </p>
 
 
 <p align="center">
-    <a href="https://ulab-uiuc.github.io/GraphRouter/">🌐 Project Page</a> |
-    <a href="http://arxiv.org/abs/2410.03834">📜 arXiv</a> |
-    <a href="https://x.com/taofeng_uiuc/status/1914914682860695559">📮 Twitter Post</a>
+    <a href="https://ulab-uiuc.github.io/GWM/">🌐 Project Page</a> |
+    <a href="https://arxiv.org/pdf/2507.10539">📜 arXiv</a> |
 <p>
 
 
