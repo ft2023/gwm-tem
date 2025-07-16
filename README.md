@@ -1,4 +1,4 @@
-# GraphRouter: A Graph-based Router for LLM Selections
+# Graph World Model
 
 <p align="center">
     <a href="https://ulab-uiuc.github.io/GraphRouter/">
@@ -44,28 +44,7 @@
 ## News
 
 
-**[2025.06.18]** 🔥 **Router-R1** has officially been released, which is a cutting-edge, reinforcement learning-driven LLM router designed to enable seamless collaboration among multiple LLMs to tackle complex problems efficiently. Explore the project and get started here: [Router-R1](https://github.com/ulab-uiuc/Router-R1). Stay updated with the latest news and developments by following us on [Twitter](https://x.com/taofeng_uiuc)!
-
-📊 We also benchmark GraphRouter on the collected [router dataset](https://huggingface.co/datasets/ulab-ai/Router-R1-Router-Dataset) in Router-R1, demonstrating its strong performance across multiple QA benchmarks under different LLM settings.
-
-📈 **GraphRouter Results on [Router Dataset](https://huggingface.co/datasets/ulab-ai/Router-R1-Router-Dataset) from Router-R1**
-| Base Model                     | NQ<sup>†</sup>   | TriviaQA | PopQA | HotpotQA<sup>†</sup> | 2WikiMultiHopQA | Musique | Bamboogle  | Avg.  |
-| ------------------------- | ----- | -------- | ----- | ----- | ----- | ------- | ----- | ----- |
-| **Qwen2.5-3B-Instruct**   | 0.276 | 0.586    | 0.280 | 0.234 | 0.180 | 0.076   | 0.448 | 0.297 |
-| **Llama-3.2-3B-Instruct** | 0.316 | 0.602    | 0.290 | 0.222 | 0.170 | 0.084   | 0.416 | 0.300 |
-
-- <sup>†</sup> indicates in-domain evaluation; all others are out-of-domain.
-
-- Evaluation Metric: Exact Match
-
-- LLM Routing Pool: Qwen2.5-7B-Instruct, LLaMA-3.1-8B-Instruct, LLaMA-3.1-70B-Instruct, Mistral-7B-Instruct, Mixtral-8x22B-Instruct, Gemma-2-27B-Instruct
-
-
-
-🎯 The fine-tuned weights for GraphRouter on this dataset are now released at `model_path/best_model_qa.pth`
-
-
-**[2025.01.22]** 🌟 **GraphRouter** is accepted for ICLR 2025.
+**[2025.01.22]** 🌟 **Graph World Model** is accepted for ICML 2025.
 
 
 
@@ -76,8 +55,8 @@
 
 ```shell
 # create a new environment
-conda create -n graphrouter python=3.10
-conda activate graphrouter
+conda create -n gwm python=3.10
+conda activate gwm
 
 # install pytorch. Modify the command to align with your own CUDA version.
 pip3 install torch  --index-url https://download.pytorch.org/whl/cu118
@@ -85,6 +64,8 @@ pip3 install torch  --index-url https://download.pytorch.org/whl/cu118
 # install related libraries
 pip install -r requirements.txt
 
+# install flash-attn
+pip install flash-attn --no-build-isolation
 
 # install pyg
 pip install torch_geometric
@@ -126,18 +107,17 @@ python run_exp.py --config_file [config]
 
 ## 📝 Acknowledgement
 
-The concept of **IRanker** is inspired by [Deepseek-R1](https://github.com/deepseek-ai/DeepSeek-RL) and [TinyZero](https://github.com/OpenLLM-TinyModels/TinyZero). Its implementation is built upon [veRL](https://github.com/PKU-Alignment/veRL).
+The implementation of **GWM** is built upon [LLaGA]([https://github.com/PKU-Alignment/veRL](https://github.com/VITA-Group/LLaGA)) and [LLaVA]([[https://github.com/PKU-Alignment/veRL](https://github.com/VITA-Group/LLaGA](https://github.com/haotian-liu/LLaVA))).
 
 We sincerely appreciate the efforts of these teams for their contributions to open-source research and development.
 
 ## Citation
 
 ```bibtex
-@inproceedings{feng2024graphrouter,
-  title={Graphrouter: A graph-based router for llm selections},
-  author={Feng, Tao and Shen, Yanzhen and You, Jiaxuan},
-  booktitle={The Thirteenth International Conference on Learning Representations},
-  year={2024}
+@inproceedings{fenggraph,
+  title={Graph World Model},
+  author={Feng, Tao and Wu, Yexin and Lin, Guanyu and You, Jiaxuan},
+  booktitle={Forty-second International Conference on Machine Learning}
 }
 ```
 
