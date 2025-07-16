@@ -102,7 +102,7 @@ python run_exp.py --config_file [config]
 
 ## 📝 Acknowledgement
 
-The implementation of **GWM** is built upon [LLaGA]([https://github.com/PKU-Alignment/veRL](https://github.com/VITA-Group/LLaGA)) and [LLaVA]([[https://github.com/PKU-Alignment/veRL](https://github.com/VITA-Group/LLaGA](https://github.com/haotian-liu/LLaVA))).
+The implementation of **GWM** is built upon [LLaGA](https://github.com/VITA-Group/LLaGA) and [LLaVA](https://github.com/haotian-liu/LLaVA).
 
 We sincerely appreciate the efforts of these teams for their contributions to open-source research and development.
 
