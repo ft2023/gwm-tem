@@ -90,6 +90,7 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 
 You can download the [multi_modal_data](link) from the provided links. Put the datasets into the `multi_modal_data/` folder like below:
 
+```
 $CODE_DIR
 ├── model
 ├── multi_modal_data
@@ -107,6 +108,7 @@ $CODE_DIR
 │       ├── HIV
 │       └── pubmed
 └── gwm_e
+```
 
 Inside each leaf directory of multi_modal_data, there are three files: train_node/edge/graph_data.jsonl, test_node/edge/graph_data.jsonl, and multi_hop_graph_embedding.pt. Specifically, the `.pt` file is the embedding file and the `.jsonl` files indicate the training/testing data samples. Each row corresponds to one data sample in a dictionary format:
 
@@ -125,6 +127,7 @@ Inside each leaf directory of multi_modal_data, there are three files: train_nod
  ],
  "graph": 1
 }
+```
 "id" indicates the corresponding rows in the embedding file, "conversations" contains the prompt and its corresponding label, and "graph" serves as an indicator for utilizing graph tokens.
 
 ## ⭐Experiments
